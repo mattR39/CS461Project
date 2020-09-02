@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+An HTML page to display PC Components
+-->
+<html>
+    <head>
+        <title>PC Web Store</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style type="text/css">
+            a{font-weight:bold; font-family:monospace; text-decoration:none;}
+            a:link{color:white;}
+            a:hover{color:red;}
+            a:visited{color:white;}
+            
+            img{border-radius: 16px;}
+            
+            a:hover{color:black;}
+            
+            span{white-space:normal;}
+            
+            .Corsair{
+                height:300px;
+                background: url(Images/Sail.jpg) no-repeat;
+            }
+            
+            .Corsair:hover{
+                filter: drop-shadow(10px 10px 10px blue);
+                
+            }
+            
+            .Asus{
+                height:300px;
+                background: url(Images/ASUS.jpg) no-repeat;
+            }
+            
+            .Asus:hover{
+                filter: drop-shadow(10px 10px 10px blue);
+            }
+            
+            .MSI{
+                height:300px;
+                background: url(Images/MSI.png) no-repeat;
+            }
+            
+            .MSI:hover{
+                filter: drop-shadow(8px 8px 10px blue);
+            }
+        </style>
+    </head>
+    <body style="background-image:url(Images/Gradient.jpg); background-size: 100%;">
+        <div style="white-space:pre; background:rgb(180,0,220); font-size: 20pt; text-align:right;">
+            <a href="index.html">Home      </a> <a href="PC.html">PC Builds      </a> <a href="shop.html">Shop      </a>
+        </div>
+        <div style="font-weight:bold; font-size:40pt; text-align:center; white-space:pre; position:static; top:30%; left:25%; ">
+            
+            Welcome to Matt's Custom PC Shop!
+            Please click the above links to see completed builds or enter the shop.
+            
+            Click the images below to browse partnered shops.
+            
+            <span><a href="https://www.corsair.com/us/en/"><img class="Corsair" src="Images/Sail.jpg"></a> 
+                <a href="https://rog.asus.com/us"><img class="Asus" src="Images/ASUS.jpg"></a> 
+                <a href="https://us.msi.com/"><img class="MSI" src="Images/MSI.png"></a>
+            
+            </span>
+        </div>
+    </body>
+</html>
